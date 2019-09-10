@@ -1,11 +1,165 @@
+/* 共通設定 */
+ul {
+    list-style: none;    
+}
+
+h1 {
+    font-weight: normal;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+p {
+    font-weight: normal; 
+}
+
 body {
     font-size: 16px;
     font-family: ;
     color: black;
-    background: white;
     margin: 0;
 }
 
-.footer {
+/* アイコン */
+.icon {
+    width: 190px;
+    height: 187px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.icon img {
+    width: 137px;
+    height: 137px;
+    border-radius: 50%;
+    background-color: red; 
+}
+
+.header {
+    width: 100%;
+    height: 300px;
+    font-size: 50px;
+    color: white; 
+    margin: 0 auto;
+    text-align: center;
+    background: url(../img/grid.jpg);
+    background-size: cover;
+}
+
+.header {
+    /* 上下左右中央揃え */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.greet {
+    height: 100px;
+    text-align: center;
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.greet h2 {
+    margin: 0;
+}
+
+.greet p {
+    margin: 0;
+}
+
+.main-wrapper {
+    height: 260px;
+    background-color: whitesmoke;
+    margin: 10px;
+    padding-top: 20px;
+}
+
+.main-wrapper h1 {
+    text-align: center;
+    margin: 0;
+}
+
+.main-container {
+    width: 580px;
+    height: 400px;
+    display: flex;
+    line-height: 30px;
+    padding-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-container ul {
+    padding: 0;
+}
+
+.profil-item {
+    width: 120px;
+    padding: 0;
+    margin-left: 0;
+    text-align: right;
+}
+
+.profil {
+    width: 300px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.myskils-container {
+    height: 100px;
+    background:whitesmoke;
+    margin: 10px;
+    padding: 20px 5px;
+}
+
+.myskils-container h1 {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myskils {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.myportfolios-container {
+    margin: 10px;
+    background: whitesmoke;
+    padding: 20px 5px;
     
+
+}
+
+.myportfolios-container h1 {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    margin: 10px;
+    height: 50px;
+    text-align: right;
+    background: whitesmoke;
     }
+
+.footer p {
+    margin: 0;
+    line-height: 50px;
+}
